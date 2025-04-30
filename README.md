@@ -12,7 +12,8 @@ Code from https://www.youtube.com/watch?v=Vonyoz6Yt9c with github link https://g
 8. conda activate handwriting_venv
 8. conda install python
 9. pip install numpy scikit-learn tqdm matplotlib pandas
-10. conda install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+10. pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 11. conda install nvidia/label/cuda-12.0.0::cuda-toolkit
-12. python ./test.py
-13. (upon successful test.py) python ./handwriting.py
+12. git clone https://github.com/BobtheElf/handwriting_transformer_for_performance_comparison.git #cd into the directory you would like to run from
+13. python ./test.py
+14. (upon successful test.py) python ./handwriting.py

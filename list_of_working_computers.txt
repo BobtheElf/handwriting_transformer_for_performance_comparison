@@ -1,0 +1,3 @@
+PCJaron - AMD Ryzen 7 5800X 8-Core Processor CPU - painful to run (4 hours I think from the screenshots)
+Spectre - NVIDIA GeForce MX150 - slow (30ish minutes)
+PCJaron - NVIDIA GeForce RTX 3080 - medium (6 minutes)
