@@ -14,6 +14,10 @@ Code from https://www.youtube.com/watch?v=Vonyoz6Yt9c with github link https://g
 9. pip install numpy scikit-learn tqdm matplotlib pandas
 10. pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 11. conda install nvidia/label/cuda-12.0.0::cuda-toolkit
-12. git clone https://github.com/BobtheElf/handwriting_transformer_for_performance_comparison.git #cd into the directory you would like to run from
+12. clone the repository
+    - git clone https://github.com/BobtheElf/handwriting_transformer_for_performance_comparison.git #cd into the directory you would like to run from
+    - Generate SSH keys
+        1. login to github
+        2. ssh-keygen -t ed25519 -C "your_email@example.com" #make ssh keypair on computer you would like the repository to go into
 13. python ./test.py
 14. (upon successful test.py) python ./handwriting.py
