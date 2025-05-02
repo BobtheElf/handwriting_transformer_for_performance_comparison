@@ -19,5 +19,6 @@ Code from https://www.youtube.com/watch?v=Vonyoz6Yt9c with github link https://g
     - Generate SSH keys
         1. login to github
         2. ssh-keygen -t ed25519 -C "your_email@example.com" #make ssh keypair on computer you would like the repository to go into
+        3. git clone git@github.com:BobtheElf/handwriting_transformer_for_performance_comparison.git
 13. python ./test.py
 14. (upon successful test.py) python ./handwriting.py
