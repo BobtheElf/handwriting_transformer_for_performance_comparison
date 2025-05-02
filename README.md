@@ -3,7 +3,9 @@
 Code from https://www.youtube.com/watch?v=Vonyoz6Yt9c with github link https://github.com/uygarkurt/ViT-PyTorch
 
 1. mkdir -p ~/miniconda3
-2. wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+2. download the correct version of miniconda for the architecture
+    - wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh #x86_64
+    - wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-aarch64.sh -O ~/miniconda3/miniconda.sh #ARM64 (you may also need to export PATH="$HOME/miniconda3/bin:$PATH")
 3. bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
 4. rm ~/miniconda3/miniconda.sh
 5. conda init bash
