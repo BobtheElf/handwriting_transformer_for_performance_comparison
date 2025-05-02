@@ -2,3 +2,4 @@ PCJaron - AMD Ryzen 7 5800X 8-Core Processor CPU - painful to run (4 hours I thi
 Spectre - NVIDIA GeForce MX150 - slow (30ish minutes)
 PCJaron - NVIDIA GeForce RTX 3080 - medium (6 minutes)
 Pikespeak - NVIDIA GeForce RTX 3080 Ti - fast (4.6 minutes)
+LaptopBenjamin - NVIDIA GeForce RTX 1050 Mobile - slow (17 minutes)
