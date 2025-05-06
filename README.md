@@ -50,3 +50,8 @@ Code from https://www.youtube.com/watch?v=Vonyoz6Yt9c with github link https://g
         3. ```git clone git@github.com:BobtheElf/handwriting_transformer_for_performance_comparison.git```
 13. ```python ./test.py```
 14. (upon successful test.py) ```python ./handwriting.py```
+
+# How to profile performance (Nsight)
+1. download nsys or find it on your computer (wsl may need a path update to where the linux version of the command lives)
+    - ```nsys --version```
+2. ```nsys profile --trace=cuda --cuda-memory-usage=true --stats=true -o <<output file name>> python ./handwriting.py```

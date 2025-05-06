@@ -1,0 +1,28 @@
+Train Accuracy EPOCH 40: 0.9673
+Valid Accuracy EPOCH 40: 0.9717
+Training Time: 398.30s
+ ** CUDA API Summary (cuda_api_sum):
+
+ Time (%)  Total Time (ns)  Num Calls  Avg (ns)   Med (ns)   Min (ns)  Max (ns)   StdDev (ns)                Name
+ --------  ---------------  ---------  ---------  ---------  --------  ---------  -----------  ---------------------------------
+     57.4      57472261951      44772  1283665.3    35386.0      1232   25486000    4651582.6  cudaStreamSynchronize
+     30.7      30690367935      86212   355987.2    11902.0      4468   17120796    1694653.0  cudaMemcpyAsync
+     11.1      11074958893     870847    12717.5    10921.0      4017  276108131     302099.4  cudaLaunchKernel
+      0.6        564393917      62740     8995.8     8465.0       161     724250       7034.4  cudaMemsetAsync
+      0.1        130605774      11840    11030.9     9698.0      6953     436063       6581.5  cuLaunchKernel
+      0.1         83745778     129076      648.8      641.0       180     845947       2749.0  cudaStreamIsCapturing_v10000
+      0.0         26660841       2960     9007.0     8465.0      6662      60363       3010.9  cudaLaunchKernelExC_v11060
+      0.0         25314042         66   383546.1   326363.5      5641    4080206     477246.7  cudaMalloc
+      0.0         15136066          4  3784016.5  4559815.5    967032    5049403    1901352.0  cuLibraryLoadData
+      0.0         14321655      11840     1209.6      722.0       491    1267413      11699.6  cuKernelGetFunction
+      0.0         10162173         32   317567.9     1057.0       531    9675357    1709170.3  cudaStreamCreateWithFlags
+      0.0          8669827         30   288994.2   237573.5       511    2610777     449131.4  cudaFree
+      0.0          4124765         25   164990.6    25297.0     10790    2439648     493401.5  cuLibraryUnload
+      0.0          1516066          4   379016.5    22827.5     14426    1455985     717995.1  cudaHostAlloc
+      0.0           434000         38    11421.1      280.5       220     404895      65563.8  cudaEventCreateWithFlags
+      0.0           369093       1634      225.9      140.0        60      23554       1161.7  cuGetProcAddress_v2
+      0.0             8487          5     1697.4     1713.0      1072       2295        447.2  cuInit
+      0.0             6181          3     2060.3     2715.0       641       2825       1230.4  cudaGetDeviceProperties_v2_v12000
+      0.0             3957          5      791.4      721.0       411       1373        354.4  cuLibraryGetKernel
+      0.0             1375          5      275.0      130.0       101        732        270.1  cuModuleGetLoadingMode
+      0.0              851          2      425.5      425.5       260        591        234.1  cudaGetDriverEntryPoint_v11030
